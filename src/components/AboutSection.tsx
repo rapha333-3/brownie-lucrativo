@@ -16,7 +16,7 @@ const AboutSection = () => (
 
         <div>
           <p className="text-foreground text-lg leading-relaxed mb-4">
-            Oi, eu sou <strong>[SEU NOME]</strong>, especialista em brownies lucrativos.
+            Oi, eu sou <strong>Jose Mendes</strong>, especialista em brownies lucrativos.
           </p>
           <p className="text-foreground text-lg leading-relaxed mb-4">
             Comecei produzindo em casa com utensílios simples e hoje ensino pessoas comuns a transformar confeitaria em renda extra real.
