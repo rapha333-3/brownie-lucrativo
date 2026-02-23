@@ -32,7 +32,7 @@ const HeroSection = () => {
 
         <div className="relative z-10 container mx-auto px-4 py-16 md:py-28 text-center">
           <h1 className="font-display text-3xl md:text-5xl lg:text-6xl font-black text-primary-foreground leading-tight max-w-4xl mx-auto mb-6">
-            Aprenda o <span className="text-gold">BROWNIE CHOCOLATUDO</span> que vende o ano inteiro — perfeito para festas, lembranças e renda extra!
+            Aprenda o <span className="text-gold">BROWNIE CHOCOLATUDO</span> que vende o ano inteiro — perfeito para esta Páscoa!
           </h1>
 
           <p className="text-primary-foreground/90 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
