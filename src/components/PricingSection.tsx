@@ -10,7 +10,7 @@ const PricingSection = () => (
   <section id="oferta" className="py-16 md:py-24 gradient-chocolate">
     <div className="container mx-auto px-4 text-center">
       <h2 className="font-display text-3xl md:text-4xl font-bold text-primary-foreground mb-4">
-        💵 Investimento único
+        Um clique de mudar sua renda ainda nessa páscoa
       </h2>
 
       <div className="bg-card max-w-md mx-auto rounded-2xl p-8 md:p-10 shadow-warm mb-8">
