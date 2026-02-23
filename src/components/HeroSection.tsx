@@ -17,7 +17,7 @@ const HeroSection = () => {
       <div className="bg-urgency text-accent-foreground text-center py-3 px-4">
         <p className="text-sm md:text-base font-semibold flex items-center justify-center gap-2 flex-wrap">
           <Gift className="w-5 h-5" />
-          Desconto especial por tempo limitado —
+          Desconto especial da Páscoa até hoje —
           <span className="line-through opacity-75">De R$87,90</span>
           <span className="text-lg font-bold"> por apenas R$14,90</span>
         </p>
