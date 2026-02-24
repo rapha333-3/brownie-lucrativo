@@ -42,15 +42,15 @@ const PricingSection = () => (
         {/* Discount ribbon */}
         <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-cta text-accent-foreground font-bold text-sm px-6 py-2 rounded-full shadow-lg flex items-center gap-2">
           <Star className="w-4 h-4" />
-          83% DE DESCONTO
+          <span className="font-numbers">83%</span> DE DESCONTO
           <Star className="w-4 h-4" />
         </div>
 
-        <p className="text-muted-foreground line-through text-xl mt-4 mb-1">R$87,90</p>
+        <p className="text-muted-foreground line-through text-xl mt-4 mb-1 font-numbers">R$87,90</p>
         <div className="flex items-baseline justify-center gap-1 mb-1">
           <span className="text-muted-foreground text-2xl font-medium">por apenas</span>
         </div>
-        <p className="font-display text-6xl md:text-7xl font-black text-cta mb-1 tracking-tight">
+        <p className="font-numbers text-6xl md:text-7xl font-black text-cta mb-1 tracking-tight">
           R$14,90
         </p>
         <p className="text-muted-foreground mb-6">à vista ou parcelamento simbólico</p>

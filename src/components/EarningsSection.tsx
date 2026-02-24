@@ -39,7 +39,7 @@ const EarningsSection = () => (
           >
             <s.icon className="w-8 h-8 text-cta mx-auto mb-3" />
             <p className="text-sm text-muted-foreground mb-1">{s.label}</p>
-            <p className="font-display text-2xl font-bold text-foreground">{s.value}</p>
+            <p className="font-numbers text-2xl font-bold text-foreground">{s.value}</p>
           </div>
         ))}
       </div>
@@ -59,7 +59,7 @@ const EarningsSection = () => (
             <p className="text-muted-foreground text-sm mb-1">
               📦 {t.qty} brownies/mês
             </p>
-            <p className="font-display text-3xl font-black text-cta">{t.profit}</p>
+            <p className="font-numbers text-3xl font-black text-cta">{t.profit}</p>
             <p className="text-xs text-muted-foreground mt-1">lucro estimado</p>
           </div>
         ))}

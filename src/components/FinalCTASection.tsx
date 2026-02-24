@@ -13,7 +13,7 @@ const FinalCTASection = () => (
         href="#oferta"
         className="inline-block bg-cta hover:bg-cta-hover text-accent-foreground font-bold text-xl px-10 py-5 rounded-lg shadow-warm transition-all duration-300 animate-pulse-gentle"
       >
-        👉 Quero começar por apenas R$14,90
+        👉 Quero começar por apenas <span className="font-numbers">R$14,90</span>
       </a>
     </div>
   </section>
