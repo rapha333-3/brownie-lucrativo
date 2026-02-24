@@ -67,7 +67,9 @@ const PricingSection = () => (
 
         {/* CTA Button */}
         <a
-          href="#"
+          href="https://www.ggcheckout.com/checkout/v5/d2QS1A5kM8dXzNJEQgJ4"
+          target="_blank"
+          rel="noopener noreferrer"
           className="block w-full bg-cta hover:bg-cta-hover text-accent-foreground font-bold text-xl py-5 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 animate-pulse-gentle hover:scale-[1.02]"
         >
           👉 Quero garantir meu acesso agora
