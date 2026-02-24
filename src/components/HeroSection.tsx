@@ -18,8 +18,8 @@ const HeroSection = () => {
         <p className="text-sm md:text-base font-semibold flex items-center justify-center gap-2 flex-wrap">
           <Gift className="w-5 h-5" />
           Desconto especial da Páscoa até hoje —
-          <span className="line-through opacity-75">De R$87,90</span>
-          <span className="text-lg font-bold"> por apenas R$14,90</span>
+          <span className="line-through opacity-75">De <span className="font-numbers">R$87,90</span></span>
+          <span className="text-lg font-bold"> por apenas <span className="font-numbers">R$14,90</span></span>
         </p>
       </div>
 
