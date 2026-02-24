@@ -59,7 +59,7 @@ const EarningsSection = () => (
             <p className="text-muted-foreground text-sm mb-1">
               📦 {t.qty} brownies/mês
             </p>
-            <p className="font-display text-3xl font-black text-cta">{t.profit}</p>
+            <p className="font-numbers text-3xl font-black text-cta">{t.profit}</p>
             <p className="text-xs text-muted-foreground mt-1">lucro estimado</p>
           </div>
         ))}
