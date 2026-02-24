@@ -42,7 +42,7 @@ const PricingSection = () => (
         {/* Discount ribbon */}
         <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-cta text-accent-foreground font-bold text-sm px-6 py-2 rounded-full shadow-lg flex items-center gap-2">
           <Star className="w-4 h-4" />
-          83% DE DESCONTO
+          <span className="font-numbers">83%</span> DE DESCONTO
           <Star className="w-4 h-4" />
         </div>
 
