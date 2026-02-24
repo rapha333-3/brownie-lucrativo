@@ -8,7 +8,7 @@ import {
 const faqs = [
   { q: "Preciso ter experiência na confeitaria?", a: "Não. O curso é para iniciantes completos. Você vai aprender tudo do zero." },
   { q: "Vou receber a receita completa?", a: "Sim, com passo a passo detalhado em videoaulas." },
-  { q: "Quanto tempo tenho acesso?", a: "Você terá acesso por 1 ano completo." },
+  { q: "Quanto tempo tenho acesso?", a: "Você terá acesso vitalício. Uma vez adquirido, é seu para sempre." },
   { q: "Posso assistir pelo celular?", a: "Sim, acesso imediato em qualquer dispositivo: celular, tablet ou computador." },
   { q: "Existe garantia?", a: "Sim, 7 dias de garantia incondicional. Se não gostar, devolvemos seu dinheiro." },
   { q: "Vou aprender a vender também?", a: "Sim! O método ensina como transformar seus brownies em uma renda extra consistente." },

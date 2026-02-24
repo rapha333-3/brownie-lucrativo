@@ -3,7 +3,7 @@ import { Play, BookOpen, Clock, RefreshCw, Monitor } from "lucide-react";
 const steps = [
   { icon: Play, title: "Videoaulas passo a passo", desc: "Método simples e direto" },
   { icon: BookOpen, title: "Receita completa", desc: "Casquinha crocante por fora e macio por dentro" },
-  { icon: Clock, title: "Acesso por 1 ano", desc: "Assista quantas vezes quiser" },
+  { icon: Clock, title: "Acesso vitalício", desc: "Assista quantas vezes quiser, para sempre" },
   { icon: Monitor, title: "Qualquer dispositivo", desc: "Celular, tablet ou computador" },
 ];
 

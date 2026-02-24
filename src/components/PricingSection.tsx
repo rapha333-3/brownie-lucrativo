@@ -11,7 +11,7 @@ const benefits = [
   "Videoaulas passo a passo",
   "Bônus exclusivos inclusos",
   "Suporte e comunidade",
-  "1 ano de acesso completo",
+  "Acesso vitalício completo",
 ];
 
 const PricingSection = () => (
