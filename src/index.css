@@ -74,6 +74,10 @@
 }
 
 @layer components {
+  .font-numbers {
+    font-family: 'Lexend', sans-serif;
+  }
+
   .text-highlight {
     background: linear-gradient(180deg, transparent 60%, hsl(var(--highlight-green)) 60%);
     padding: 0 4px;
