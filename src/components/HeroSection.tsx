@@ -39,7 +39,7 @@ const HeroSection = () => {
             Domine a receita profissional, embalagem e montagem passo a passo e transforme brownies em uma fonte de renda mesmo começando do zero.
           </p>
 
-          <CTAButton>👉 Quero aprender agora por R$14,90</CTAButton>
+          <CTAButton>👉 Quero aprender agora por <span className="font-numbers">R$14,90</span></CTAButton>
 
           <div className="flex flex-wrap justify-center gap-6 md:gap-10 mt-10 text-primary-foreground/90">
             <div className="flex items-center gap-2 text-sm md:text-base">
