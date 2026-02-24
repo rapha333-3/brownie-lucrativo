@@ -39,7 +39,7 @@ const EarningsSection = () => (
           >
             <s.icon className="w-8 h-8 text-cta mx-auto mb-3" />
             <p className="text-sm text-muted-foreground mb-1">{s.label}</p>
-            <p className="font-display text-2xl font-bold text-foreground">{s.value}</p>
+            <p className="font-numbers text-2xl font-bold text-foreground">{s.value}</p>
           </div>
         ))}
       </div>
