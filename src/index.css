@@ -104,6 +104,10 @@
     50% { transform: scale(1.03); }
   }
 
+  .animate-pulse-gentle {
+    animation: pulse-gentle 3.5s ease-in-out infinite;
+  }
+
   @keyframes float {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-6px); }
