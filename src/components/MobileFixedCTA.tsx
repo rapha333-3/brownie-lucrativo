@@ -4,7 +4,7 @@ const MobileFixedCTA = () => (
       href="https://www.ggcheckout.com/checkout/v5/d2QS1A5kM8dXzNJEQgJ4"
       target="_blank"
       rel="noopener noreferrer"
-      className="block w-full bg-cta hover:bg-cta-hover text-accent-foreground font-bold text-center text-lg py-4 rounded-xl shadow-lg transition-all duration-300"
+      className="block w-full bg-cta hover:bg-cta-hover text-accent-foreground font-button font-bold text-center text-lg py-4 rounded-xl shadow-lg transition-all duration-300"
     >
       👉 Garantir por <span className="font-numbers">R$14,90</span>
     </a>

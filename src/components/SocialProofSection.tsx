@@ -42,7 +42,7 @@ const SocialProofSection = () => (
           href="https://www.ggcheckout.com/checkout/v5/d2QS1A5kM8dXzNJEQgJ4"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block bg-cta hover:bg-cta-hover text-accent-foreground font-bold text-lg px-8 py-4 rounded-xl shadow-lg transition-all duration-300 hover:scale-[1.02]"
+          className="inline-block bg-cta hover:bg-cta-hover text-accent-foreground font-button font-bold text-lg px-8 py-4 rounded-xl shadow-lg transition-all duration-300 hover:scale-[1.02]"
         >
           👉 Quero começar também
         </a>
