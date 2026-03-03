@@ -39,7 +39,7 @@ const HeroSection = () => {
             href="https://www.ggcheckout.com/checkout/v5/d2QS1A5kM8dXzNJEQgJ4"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-cta hover:bg-cta-hover text-accent-foreground font-bold text-lg md:text-xl px-10 py-5 rounded-xl shadow-lg transition-all duration-300 animate-pulse-gentle hover:scale-[1.02]"
+            className="inline-block bg-cta hover:bg-cta-hover text-accent-foreground font-button font-bold text-lg md:text-xl px-10 py-5 rounded-xl shadow-lg transition-all duration-300 animate-pulse-gentle hover:scale-[1.02]"
           >
             👉 Quero garantir por <span className="font-numbers">R$14,90</span>
           </a>

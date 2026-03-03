@@ -33,7 +33,7 @@ const FinalCTASection = () => (
           href="https://www.ggcheckout.com/checkout/v5/d2QS1A5kM8dXzNJEQgJ4"
           target="_blank"
           rel="noopener noreferrer"
-          className="block w-full bg-cta hover:bg-cta-hover text-accent-foreground font-bold text-xl py-5 rounded-xl shadow-lg transition-all duration-300 animate-pulse-gentle hover:scale-[1.02]"
+          className="block w-full bg-cta hover:bg-cta-hover text-accent-foreground font-button font-bold text-xl py-5 rounded-xl shadow-lg transition-all duration-300 animate-pulse-gentle hover:scale-[1.02]"
         >
           👉 Quero garantir meu acesso agora
         </a>

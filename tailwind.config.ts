@@ -15,7 +15,8 @@ export default {
     extend: {
       fontFamily: {
         display: ['"Playfair Display"', 'serif'],
-        sans: ['Inter', 'sans-serif'],
+        sans: ['Poppins', 'sans-serif'],
+        button: ['Montserrat', 'sans-serif'],
         numbers: ['Lexend', 'sans-serif'],
       },
       colors: {
