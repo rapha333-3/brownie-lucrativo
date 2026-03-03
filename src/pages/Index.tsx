@@ -4,6 +4,7 @@ import ContentSection from "@/components/ContentSection";
 import SocialProofSection from "@/components/SocialProofSection";
 import EarningsSection from "@/components/EarningsSection";
 import ObjectionsSection from "@/components/ObjectionsSection";
+import FAQSection from "@/components/FAQSection";
 import FinalCTASection from "@/components/FinalCTASection";
 import MobileFixedCTA from "@/components/MobileFixedCTA";
 
@@ -16,6 +17,7 @@ const Index = () => {
       <SocialProofSection />
       <EarningsSection />
       <ObjectionsSection />
+      <FAQSection />
       <FinalCTASection />
       <footer className="bg-chocolate-dark text-primary-foreground/60 text-center py-6 text-sm">
         © {new Date().getFullYear()} Brownie Chocolatudo. Todos os direitos reservados.
