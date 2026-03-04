@@ -12,8 +12,7 @@ const Index = () => {
       <HeroSection />
       <PromiseSection />
       <SocialProofSection />
-      <ObjectionsSection />
-      <FinalCTASection />
+      <GuaranteeSection />
       <FAQSection />
       <footer className="bg-chocolate-dark text-primary-foreground/60 text-center py-6 text-sm">
         © {new Date().getFullYear()} Brownie Chocolatudo. Todos os direitos reservados.
