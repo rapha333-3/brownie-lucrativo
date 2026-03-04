@@ -2,7 +2,7 @@ import HeroSection from "@/components/HeroSection";
 import PromiseSection from "@/components/PromiseSection";
 import ContentSection from "@/components/ContentSection";
 import SocialProofSection from "@/components/SocialProofSection";
-import EarningsSection from "@/components/EarningsSection";
+
 import ObjectionsSection from "@/components/ObjectionsSection";
 import FAQSection from "@/components/FAQSection";
 import FinalCTASection from "@/components/FinalCTASection";
@@ -15,7 +15,7 @@ const Index = () => {
       <PromiseSection />
       <ContentSection />
       <SocialProofSection />
-      <EarningsSection />
+      
       <ObjectionsSection />
       <FinalCTASection />
       <FAQSection />
