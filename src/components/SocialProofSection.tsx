@@ -1,4 +1,6 @@
 import { Star } from "lucide-react";
+import Autoplay from "embla-carousel-autoplay";
+import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
 
 const testimonials = [
   {
@@ -30,7 +32,7 @@ const testimonials = [
 
 const SocialProofSection = () => (
   <section className="py-16 md:py-24 bg-card">
-    <div className="container mx-auto px-4 max-w-4xl">
+    <div className="container mx-auto px-4 max-w-3xl">
       <h2 className="font-display text-3xl md:text-4xl font-bold text-center text-primary mb-4">
         Quem prova, aprova
       </h2>
@@ -38,25 +40,31 @@ const SocialProofSection = () => (
         Veja o que nossos alunos estão dizendo:
       </p>
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-10">
-        {testimonials.map((t, i) => (
-          <div
-            key={i}
-            className="bg-background rounded-xl p-6 shadow-warm border border-border flex flex-col gap-3"
-          >
-            <div className="flex gap-0.5">
-              {Array.from({ length: t.stars }).map((_, j) => (
-                <Star key={j} className="w-4 h-4 fill-gold text-gold" />
-              ))}
-            </div>
-            <p className="text-foreground text-sm leading-relaxed flex-1">
-              "{t.text}"
-            </p>
-            <p className="text-muted-foreground text-sm font-semibold">
-              — {t.name}
-            </p>
-          </div>
-        ))}
+      <div className="max-w-md mx-auto mb-10">
+        <Carousel
+          opts={{ loop: true }}
+          plugins={[Autoplay({ delay: 4000, stopOnInteraction: false })]}
+        >
+          <CarouselContent>
+            {testimonials.map((t, i) => (
+              <CarouselItem key={i}>
+                <div className="bg-background rounded-xl p-8 shadow-warm border border-border flex flex-col gap-4 text-center mx-2">
+                  <div className="flex justify-center gap-0.5">
+                    {Array.from({ length: t.stars }).map((_, j) => (
+                      <Star key={j} className="w-5 h-5 fill-gold text-gold" />
+                    ))}
+                  </div>
+                  <p className="text-foreground text-base leading-relaxed italic">
+                    "{t.text}"
+                  </p>
+                  <p className="text-muted-foreground text-sm font-semibold">
+                    — {t.name}
+                  </p>
+                </div>
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+        </Carousel>
       </div>
 
       <div className="text-center">
