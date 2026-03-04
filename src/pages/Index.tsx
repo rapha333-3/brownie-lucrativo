@@ -11,7 +11,7 @@ const Index = () => {
     <div className="min-h-screen pb-16 md:pb-0">
       <HeroSection />
       <PromiseSection />
-      <SocialProofSection />
+      <FinalCTASection />
       <GuaranteeSection />
       <FAQSection />
       <footer className="bg-chocolate-dark text-primary-foreground/60 text-center py-6 text-sm">
