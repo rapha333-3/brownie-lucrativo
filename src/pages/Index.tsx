@@ -1,5 +1,6 @@
 import HeroSection from "@/components/HeroSection";
 import PromiseSection from "@/components/PromiseSection";
+import AccessSection from "@/components/AccessSection";
 import SocialProofSection from "@/components/SocialProofSection";
 import GuaranteeSection from "@/components/GuaranteeSection";
 import FAQSection from "@/components/FAQSection";
