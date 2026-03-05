@@ -1,6 +1,5 @@
 import HeroSection from "@/components/HeroSection";
 import PromiseSection from "@/components/PromiseSection";
-import AccessSection from "@/components/AccessSection";
 import SocialProofSection from "@/components/SocialProofSection";
 import GuaranteeSection from "@/components/GuaranteeSection";
 import FAQSection from "@/components/FAQSection";
@@ -12,7 +11,6 @@ const Index = () => {
     <div className="min-h-screen pb-16 md:pb-0">
       <HeroSection />
       <PromiseSection />
-      <AccessSection />
       <SocialProofSection />
       <FinalCTASection />
       <GuaranteeSection />
