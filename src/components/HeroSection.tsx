@@ -1,5 +1,5 @@
 import { ShieldCheck, Clock, Zap, Gift } from "lucide-react";
-import brownieHero from "@/assets/brownie-hero.jpg";
+import heroBg from "@/assets/hero-bg.png";
 
 const HeroSection = () => {
   return (
@@ -20,7 +20,7 @@ const HeroSection = () => {
       {/* Hero */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
-          <img src={brownieHero} alt="Brownie chocolatudo" className="w-full h-full object-cover" />
+          <img src={heroBg} alt="Brownie chocolatudo" className="w-full h-full object-cover" />
           <div className="absolute inset-0 gradient-chocolate opacity-85" />
         </div>
 
